@@ -23,9 +23,15 @@ architecture nazwa_architektury of nazwa_modulu is
     -- tutaj zapisuje się sygnały pomocnicze 
     -- zapis stałej, jej typu i wartości 
     constant nazwa_stalej : integer := 10;
-    
+
     signal 
 
 begin
+
+    nazwa_procesu : process( clk )
+    begin
+    -- tutaj kod wykonuje się sekwencyjnie
+
+    end process ; -- nazwa_procesu
 
 end nazwa_architektury ; -- nazwa_architektury
